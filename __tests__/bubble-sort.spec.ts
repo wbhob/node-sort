@@ -1,5 +1,5 @@
 import { bubbleSort } from '../src/bubble-sort'
-import { unsortedArray, sortedArray } from './utils';
+import { unsortedArray, sortedArray } from './utils'
 
 describe('bubble sort', () => {
   it('should sort an array', () => {

@@ -1,5 +1,5 @@
 import { selectionSort } from '../src/selection-sort'
-import { unsortedArray, sortedArray } from './utils';
+import { unsortedArray, sortedArray } from './utils'
 
 describe('selection sort', () => {
   it('should sort an array', () => {
