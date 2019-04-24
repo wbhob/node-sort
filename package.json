@@ -1,5 +1,5 @@
 {
-  "name": "typescript-starter",
+  "name": "node-sort",
   "version": "1.0.0",
   "description": "A simple starter for typescript",
   "main": "dist/index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wbhob/typescript-starter.git"
+    "url": "git+https://github.com/wbhob/node-sort.git"
   },
   "author": "Wilson Hobbs <wilsonhobbs1@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wbhob/typescript-starter/issues"
+    "url": "https://github.com/wbhob/node-sort/issues"
   },
-  "homepage": "https://github.com/wbhob/typescript-starter#readme",
+  "homepage": "https://github.com/wbhob/node-sort#readme",
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "@types/node": "^11.12.2",
@@ -28,5 +28,10 @@
     "ts-jest": "^24.0.1",
     "tslint": "^5.14.0",
     "typescript": "^3.4.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
