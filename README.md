@@ -7,7 +7,7 @@ This repository contains a bunch of sorting algorithms writting in TypeScript. I
 ```typescript
 import { mergeSort } from 'node-sort'
 
-mergeSort([1,5,2,7,4,3,67,4])
+mergeSort([1, 5, 2, 7, 4, 3, 67, 4])
 ```
 
 ## Contributing
